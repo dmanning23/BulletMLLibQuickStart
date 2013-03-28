@@ -1,0 +1,15 @@
+[submodule "BulletMLSample/Content/Samples"]
+	path = BulletMLSample/Content/Samples
+	url = https://github.com/dmanning23/BulletMLExamples.git
+[submodule "externals/FontBuddy"]
+	path = externals/FontBuddy
+	url = https://github.com/dmanning23/FontBuddy.git
+[submodule "externals/BulletMLLib"]
+	path = externals/BulletMLLib
+	url = https://github.com/dmanning23/BulletMLLib.git
+[submodule "externals/CollisionBuddy"]
+	path = externals/CollisionBuddy
+	url = https://github.com/dmanning23/CollisionBuddy.git
+[submodule "externals/HadoukInput"]
+	path = externals/HadoukInput
+	url = https://github.com/dmanning23/HadoukInput.git
