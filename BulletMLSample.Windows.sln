@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletMLSample", "BulletMLSample\BulletMLSample.csproj", "{644BAD78-CEBF-48DE-B184-A0EC69B9B298}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletMLSample.Windows", "BulletMLSample\BulletMLSample.Windows.csproj", "{644BAD78-CEBF-48DE-B184-A0EC69B9B298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletMLSampleContent", "BulletMLSample\Content\BulletMLSampleContent.contentproj", "{81D74F8C-171C-40E2-8EFA-ECA48478E41B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletMLSampleContent", "BulletMLSample\Content\BulletMLSampleContent.csproj", "{81D74F8C-171C-40E2-8EFA-ECA48478E41B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletMLLib.Windows", "externals\BulletMLLib\BulletMLLib\BulletMLLib.Windows.csproj", "{BD08C5E1-5925-42A8-B221-9741AFCF2C77}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddy.Windows", "externals\FontBuddy\FontBuddy\FontBuddy.Windows.csproj", "{30A0EB57-95B0-4C85-A88E-71C40E9BE671}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HadoukInput.Windows", "externals\HadoukInput\HadoukInput\HadoukInput.Windows.csproj", "{F5CC3080-2D60-421C-9593-C520C58C5507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTimer.Windows", "externals\GameTimer\GameTimer\GameTimer.Windows.csproj", "{34F0272D-BBF9-4996-8EA4-B231872A28AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,18 @@ Global
 		{30A0EB57-95B0-4C85-A88E-71C40E9BE671}.Release|Mixed Platforms.Build.0 = Release|x86
 		{30A0EB57-95B0-4C85-A88E-71C40E9BE671}.Release|x86.ActiveCfg = Release|x86
 		{30A0EB57-95B0-4C85-A88E-71C40E9BE671}.Release|x86.Build.0 = Release|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Debug|Any CPU.Build.0 = Debug|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Debug|x86.ActiveCfg = Debug|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Debug|x86.Build.0 = Debug|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Release|Any CPU.ActiveCfg = Release|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Release|Any CPU.Build.0 = Release|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Release|Mixed Platforms.Build.0 = Release|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Release|x86.ActiveCfg = Release|x86
+		{34F0272D-BBF9-4996-8EA4-B231872A28AF}.Release|x86.Build.0 = Release|x86
 		{3EB0132F-9AAF-465C-8E7C-8880BBE6D600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3EB0132F-9AAF-465C-8E7C-8880BBE6D600}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB0132F-9AAF-465C-8E7C-8880BBE6D600}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -48,6 +62,7 @@ Global
 		{3EB0132F-9AAF-465C-8E7C-8880BBE6D600}.Release|x86.ActiveCfg = Release|Any CPU
 		{3EB0132F-9AAF-465C-8E7C-8880BBE6D600}.Release|x86.Build.0 = Release|Any CPU
 		{644BAD78-CEBF-48DE-B184-A0EC69B9B298}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{644BAD78-CEBF-48DE-B184-A0EC69B9B298}.Debug|Any CPU.Build.0 = Debug|x86
 		{644BAD78-CEBF-48DE-B184-A0EC69B9B298}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{644BAD78-CEBF-48DE-B184-A0EC69B9B298}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{644BAD78-CEBF-48DE-B184-A0EC69B9B298}.Debug|x86.ActiveCfg = Debug|x86
@@ -58,6 +73,7 @@ Global
 		{644BAD78-CEBF-48DE-B184-A0EC69B9B298}.Release|x86.ActiveCfg = Release|x86
 		{644BAD78-CEBF-48DE-B184-A0EC69B9B298}.Release|x86.Build.0 = Release|x86
 		{81D74F8C-171C-40E2-8EFA-ECA48478E41B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{81D74F8C-171C-40E2-8EFA-ECA48478E41B}.Debug|Any CPU.Build.0 = Debug|x86
 		{81D74F8C-171C-40E2-8EFA-ECA48478E41B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{81D74F8C-171C-40E2-8EFA-ECA48478E41B}.Debug|x86.ActiveCfg = Debug|x86
 		{81D74F8C-171C-40E2-8EFA-ECA48478E41B}.Release|Any CPU.ActiveCfg = Release|x86
@@ -87,7 +103,7 @@ Global
 		{F5CC3080-2D60-421C-9593-C520C58C5507}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = BulletMLSample\BulletMLSample.csproj
+		StartupItem = BulletMLSample\BulletMLSample.Windows.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

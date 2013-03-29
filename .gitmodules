@@ -14,3 +14,6 @@
 	path = externals/HadoukInput
 	url = https://github.com/dmanning23/HadoukInput.git
 
+[submodule "externals/GameTimer"]
+	path = externals/GameTimer
+	url = https://github.com/dmanning23/GameTimer.git
