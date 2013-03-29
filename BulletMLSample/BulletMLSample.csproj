@@ -160,9 +160,25 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BulletMLLib\BulletMLLib.Windows.csproj">
+    <ProjectReference Include="..\externals\BulletMLLib\BulletMLLib\BulletMLLib.Windows.csproj">
       <Project>{BD08C5E1-5925-42A8-B221-9741AFCF2C77}</Project>
       <Name>BulletMLLib.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\CollisionBuddy\CollisionBuddy.csproj">
+      <Project>{3EB0132F-9AAF-465C-8E7C-8880BBE6D600}</Project>
+      <Name>CollisionBuddy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\FontBuddy\FontBuddy\FontBuddy.csproj">
+      <Project>{30A0EB57-95B0-4C85-A88E-71C40E9BE671}</Project>
+      <Name>FontBuddy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\GameTimer\GameTimer\GameTimer.csproj">
+      <Project>{34F0272D-BBF9-4996-8EA4-B231872A28AF}</Project>
+      <Name>GameTimer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\HadoukInput\HadoukInput\HadoukInput.csproj">
+      <Project>{F5CC3080-2D60-421C-9593-C520C58C5507}</Project>
+      <Name>HadoukInput</Name>
     </ProjectReference>
     <ProjectReference Include="Content\BulletMLSampleContent.contentproj">
       <Project>{81D74F8C-171C-40E2-8EFA-ECA48478E41B}</Project>
