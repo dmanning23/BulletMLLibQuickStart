@@ -2,7 +2,6 @@
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <ProjectGuid>{644BAD78-CEBF-48DE-B184-A0EC69B9B298}</ProjectGuid>
-    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>WinExe</OutputType>
@@ -40,6 +39,8 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -67,35 +68,13 @@
     <XnaCompressContent>True</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Microsoft.Xna.Framework.Input.Touch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="mscorlib">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System">
-      <Private>False</Private>
-    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Xml">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Core">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="MonoGame.Framework, Version=3.0.1.0, Culture=neutral">
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -164,26 +143,17 @@
       <Project>{BD08C5E1-5925-42A8-B221-9741AFCF2C77}</Project>
       <Name>BulletMLLib.Windows</Name>
     </ProjectReference>
-    <ProjectReference Include="..\externals\CollisionBuddy\CollisionBuddy.csproj">
+    <ProjectReference Include="..\externals\CollisionBuddy\CollisionBuddy.Windows.csproj">
       <Project>{3EB0132F-9AAF-465C-8E7C-8880BBE6D600}</Project>
-      <Name>CollisionBuddy</Name>
+      <Name>CollisionBuddy.Windows</Name>
     </ProjectReference>
-    <ProjectReference Include="..\externals\FontBuddy\FontBuddy\FontBuddy.csproj">
+    <ProjectReference Include="..\externals\FontBuddy\FontBuddy\FontBuddy.Windows.csproj">
       <Project>{30A0EB57-95B0-4C85-A88E-71C40E9BE671}</Project>
-      <Name>FontBuddy</Name>
+      <Name>FontBuddy.Windows</Name>
     </ProjectReference>
-    <ProjectReference Include="..\externals\GameTimer\GameTimer\GameTimer.csproj">
-      <Project>{34F0272D-BBF9-4996-8EA4-B231872A28AF}</Project>
-      <Name>GameTimer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\externals\HadoukInput\HadoukInput\HadoukInput.csproj">
+    <ProjectReference Include="..\externals\HadoukInput\HadoukInput\HadoukInput.Windows.csproj">
       <Project>{F5CC3080-2D60-421C-9593-C520C58C5507}</Project>
-      <Name>HadoukInput</Name>
-    </ProjectReference>
-    <ProjectReference Include="Content\BulletMLSampleContent.contentproj">
-      <Project>{81D74F8C-171C-40E2-8EFA-ECA48478E41B}</Project>
-      <Name>BulletMLSampleContent %28Content%29</Name>
-      <XnaReferenceType>Content</XnaReferenceType>
+      <Name>HadoukInput.Windows</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
