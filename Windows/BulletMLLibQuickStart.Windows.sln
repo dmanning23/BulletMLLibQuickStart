@@ -3,12 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletMLLibQuickStart.Windows", "BulletMLLibQuickStart.Windows.csproj", "{C40CB563-3543-4225-8B3D-7F382A43FFF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullMLLib.Windows", "..\externals\BulletMLLib\Windows\BullMLLib.Windows.csproj", "{203274CD-9994-4562-B824-6CF9CAE40347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddy.Windows", "..\externals\FontBuddy\Windows\FontBuddy.Windows.csproj", "{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTimer.Windows", "..\externals\GameTimer\Windows\GameTimer.Windows.csproj", "{6B6D4188-5C03-4E16-923B-96FDBC85B91A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HadoukInput.Windows", "..\externals\HadoukInput\Windows\HadoukInput.Windows.csproj", "{85D723F7-83EF-4C75-82BA-9385D0AC8448}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203274CD-9994-4562-B824-6CF9CAE40347}.Debug|x86.ActiveCfg = Debug|x86
+		{203274CD-9994-4562-B824-6CF9CAE40347}.Debug|x86.Build.0 = Debug|x86
+		{203274CD-9994-4562-B824-6CF9CAE40347}.Release|x86.ActiveCfg = Release|x86
+		{203274CD-9994-4562-B824-6CF9CAE40347}.Release|x86.Build.0 = Release|x86
+		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Debug|x86.ActiveCfg = Debug|x86
+		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Debug|x86.Build.0 = Debug|x86
+		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Release|x86.ActiveCfg = Release|x86
+		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Release|x86.Build.0 = Release|x86
+		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Debug|x86.ActiveCfg = Debug|x86
+		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Debug|x86.Build.0 = Debug|x86
+		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|x86.ActiveCfg = Release|x86
+		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|x86.Build.0 = Release|x86
+		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Debug|x86.ActiveCfg = Debug|x86
+		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Debug|x86.Build.0 = Debug|x86
+		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Release|x86.ActiveCfg = Release|x86
+		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Release|x86.Build.0 = Release|x86
 		{C40CB563-3543-4225-8B3D-7F382A43FFF7}.Debug|x86.ActiveCfg = Debug|x86
 		{C40CB563-3543-4225-8B3D-7F382A43FFF7}.Debug|x86.Build.0 = Debug|x86
 		{C40CB563-3543-4225-8B3D-7F382A43FFF7}.Release|x86.ActiveCfg = Release|x86
