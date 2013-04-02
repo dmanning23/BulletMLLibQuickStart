@@ -828,12 +828,12 @@
       <Link>Content\Samples\[xsoldier]_8_boss_main.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\BulletMLSample\Content\Sprites\bullet.tga">
-      <Link>Content\Sprites\bullet.tga</Link>
+    <Content Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\TestFont.xnb">
+      <Link>Content\TestFont.xnb</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\BulletMLSample\Content\TestFont.spritefont">
-      <Link>Content\TestFont.spritefont</Link>
+    <Content Include="..\BulletMLSample\Content\Sprites\bullet.png">
+      <Link>Content\Sprites\bullet.png</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

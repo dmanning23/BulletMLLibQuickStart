@@ -17,3 +17,6 @@
 [submodule "externals/GameTimer"]
 	path = externals/GameTimer
 	url = https://github.com/dmanning23/GameTimer.git
+[submodule "externals/XNA"]
+	path = externals/XNA
+	url = https://github.com/dmanning23/XnaCompiledResources.git
