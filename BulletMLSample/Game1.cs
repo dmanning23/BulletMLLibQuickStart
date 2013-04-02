@@ -38,7 +38,7 @@ namespace BulletMLSample
 		/// <summary>
 		/// A list of all the bulletml samples we have loaded
 		/// </summary>
-		private List<BulletMLParser> _myPatterns = new List<BulletMLParser>();
+		private List<BulletPattern> _myPatterns = new List<BulletPattern>();
 
 		/// <summary>
 		/// The names of all the bulletml patterns that are loaded, stored so we can display what is being fired
@@ -93,7 +93,7 @@ namespace BulletMLSample
 				_patternNames.Add(source);
 
 				//load the pattern
-				BulletMLParser pattern = new BulletMLParser();
+				BulletPattern pattern = new BulletPattern();
 				pattern.ParseXML(source);
 				_myPatterns.Add(pattern);
 			}

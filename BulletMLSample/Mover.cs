@@ -64,7 +64,7 @@ namespace BulletMLSample
         }
 
         /// BulletMLの弾幕定義を自分にセット
-        public void SetBullet(BulletMLTree tree)
+		public void SetBullet(BulletMLNode tree)
         {
             InitTop(tree);
         }
