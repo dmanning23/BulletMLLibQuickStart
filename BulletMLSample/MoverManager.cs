@@ -1,32 +1,68 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using BulletMLLib;
+using Microsoft.Xna.Framework;
 
 namespace BulletMLSample
 {
     /// <summary>
     /// オブジェクトを一括管理する
     /// </summary>
-    class MoverManager
+	class MoverManager : IBulletManager
     {
-        public static List<Mover> movers = new List<Mover>(); //Moverのリスト
+        public List<Mover> movers = new List<Mover>(); //Moverのリスト
 
-        /// <summary>
-        /// 新しいMoverを作成
-        /// </summary>
-        static public Mover CreateMover()
-        {
-            Mover mover = new Mover();
-            movers.Add(mover); //Moverを登録
-            mover.Init(); //初期化
-            return mover;
-        }
+		public PositionDelegate GetPlayerPosition;
+
+		public MoverManager(PositionDelegate playerDelegate)
+		{
+			Debug.Assert(null != playerDelegate);
+			GetPlayerPosition = playerDelegate;
+		}
+
+		/// <summary>
+		/// a mathod to get current position of the player
+		/// This is used to target bullets at that position
+		/// </summary>
+		/// <returns>The position to aim the bullet at</returns>
+		/// <param name="targettedBullet">the bullet we are getting a target for</param>
+		public Vector2 PlayerPosition(Bullet targettedBullet)
+		{
+			//just give the player's position
+			Debug.Assert(null != GetPlayerPosition);
+			return GetPlayerPosition();
+		}
+
+		/// <summary>
+		/// 新しい弾(Mover)を作成するときライブラリから呼ばれる
+		/// </summary>
+		public Bullet CreateBullet()
+		{
+			Mover mover = new Mover(this);
+			movers.Add(mover); //Moverを登録
+			mover.Init(); //初期化
+			return mover;
+		}
+		
+		/// <summary>
+		/// 弾が消えたときにライブラリから呼び出される
+		/// </summary>
+		public void RemoveBullet(Bullet deadBullet)
+		{
+			Mover myMover = deadBullet as Mover;
+			if (myMover != null)
+			{
+				myMover.used = false;
+			}
+		}
 
         /// <summary>
         /// すべてのMoverの行動を実行する
         /// </summary>
-        static public void Update()
+        public void Update()
         {
             for (int i = 0; i < movers.Count; i++)
             {
@@ -34,11 +70,10 @@ namespace BulletMLSample
             }
         }
 
-
         /// <summary>
         /// 使われなくなったMoverを解放する
         /// </summary>
-        static public void FreeMovers()
+        public void FreeMovers()
         {
             for (int i = 0; i < movers.Count; i++)
             {

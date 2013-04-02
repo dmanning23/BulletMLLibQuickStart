@@ -26,6 +26,8 @@ namespace BulletMLSample
 		int timer = 0;
 		Mover mover;
 
+		MoverManager _moverManager;
+
 		GameClock _clock;
 
 		InputState _inputState;
@@ -62,6 +64,7 @@ namespace BulletMLSample
 			_clock = new GameClock();
 			_inputState = new InputState();
 			_inputWrapper = new InputWrapper(PlayerIndex.One, _clock.GetCurrentTime);
+			_moverManager = new MoverManager(myship.Position);
 		}
 
 		protected override void Initialize()
@@ -79,7 +82,7 @@ namespace BulletMLSample
 		{
 			spriteBatch = new SpriteBatch(GraphicsDevice);
 
-			_text.LoadContent(Content, "TestFont");
+			_text.LoadContent(Content, "ArialBlack14");
 
 			texture = Content.Load<Texture2D>("Sprites\\bullet");
 
@@ -95,13 +98,12 @@ namespace BulletMLSample
 				_myPatterns.Add(pattern);
 			}
 
-			BulletMLManager.GameDifficulty = this.GetRank;
-			BulletMLManager.PlayerPosition = myship.Position;
+			GameManager.GameDifficulty = this.GetRank;
 
-			//“G‚ğˆê‚Â‰æ–Ê’†‰›‚Éì¬‚µA’e‚ğ“f‚­‚æ‚¤İ’è
-			mover = MoverManager.CreateMover();
+			//?G???????????????????????A?e???f??????????
+			mover = (Mover)_moverManager.CreateBullet();
 			mover.pos = new Vector2(graphics.PreferredBackBufferWidth / 2, graphics.PreferredBackBufferHeight / 2);
-			mover.SetBullet(_myPatterns[_CurrentPattern].tree); //BulletML‚Å“®‚©‚·‚æ‚¤‚Éİ’è
+			mover.SetBullet(_myPatterns[_CurrentPattern].tree); //BulletML??????????????????
 		}
 
 		protected override void UnloadContent()
@@ -156,18 +158,18 @@ namespace BulletMLSample
 				timer = 0;
 				if (mover.used == false)
 				{
-					//“G‚ğˆê‚Â‰æ–Ê’†‰›‚Éì¬‚µA’e‚ğ“f‚­‚æ‚¤İ’è
-					mover = MoverManager.CreateMover();
+					//?G???????????????????????A?e???f??????????
+					mover = (Mover)_moverManager.CreateBullet();
 					mover.pos = new Vector2(graphics.PreferredBackBufferWidth / 4 + graphics.PreferredBackBufferWidth / 2 * (float)rand.NextDouble(), graphics.PreferredBackBufferHeight / 2 * (float)rand.NextDouble());
-					mover.SetBullet(_myPatterns[_CurrentPattern].tree); //BulletML‚Å“®‚©‚·‚æ‚¤‚Éİ’è
+					mover.SetBullet(_myPatterns[_CurrentPattern].tree); //BulletML??????????????????
 				}
 			}
 
-			//‚·‚×‚Ä‚ÌMover‚ğs“®‚³‚¹‚é
-			MoverManager.Update();
-			//g‚í‚È‚­‚È‚Á‚½Mover‚ğ‰ğ•ú
-			MoverManager.FreeMovers();
-			// ©‹@‚ğXV
+			//????????Mover???s????????
+			_moverManager.Update();
+			//?g????????????Mover??????
+			_moverManager.FreeMovers();
+			// ???@???X?V
 			myship.Update();
 
 			base.Update(gameTime);
@@ -177,7 +179,7 @@ namespace BulletMLSample
 		{
 			GraphicsDevice.Clear(Color.CornflowerBlue);
 
-			//“G‚â’e‚ğ•`‰æ
+			//?G???e???`??
 			spriteBatch.Begin();
 
 			Vector2 position = Vector2.Zero;
@@ -185,7 +187,7 @@ namespace BulletMLSample
 			//say what controller we are checking
 			_text.Write(_patternNames[_CurrentPattern], position, Justify.Left, 1.0f, Color.White, spriteBatch);
 
-			foreach (Mover mover in MoverManager.movers)
+			foreach (Mover mover in _moverManager.movers)
 				spriteBatch.Draw(texture, mover.pos, Color.Black);
 
 			spriteBatch.Draw(texture, myship.pos, Color.Black);

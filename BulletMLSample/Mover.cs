@@ -9,24 +9,52 @@ namespace BulletMLSample
     /// <summary>
     /// 弾や敵オブジェクト（自身が弾源になる場合も、弾源から呼び出される場合もあります）
     /// </summary>
-    class Mover : IBulletMLBulletInterface
+    class Mover : Bullet
     {
-        public BulletMLBullet mlBullet;
+		#region Members
+
         public bool used;
         public bool bulletRoot;
         public Vector2 pos;
+
+		#endregion //Members
+
+		#region Properties
+
+		public override float X
+		{
+			get { return pos.X; }
+			set { pos.X = value; }
+		}
+		
+		public override float Y
+		{
+			get { return pos.Y; }
+			set { pos.Y = value; }
+		}
+		
+		#endregion //Properties
+
+		#region Methods
+
+		/// <summary>
+		/// Initializes a new instance of the <see cref="BulletMLSample.Mover"/> class.
+		/// </summary>
+		/// <param name="myBulletManager">My bullet manager.</param>
+		public Mover(IBulletManager myBulletManager) : base(myBulletManager)
+		{
+		}
 
         public void Init()
         {
             used = true;
             bulletRoot = false;
-            mlBullet = new BulletMLBullet(this);
         }
 
         public void Update()
         {
             //BulletMLで自分を動かす
-            if (mlBullet.Run()) //自分が弾の発信源なら、処理終了後に自動的に消える
+            if (Run()) //自分が弾の発信源なら、処理終了後に自動的に消える
                 if(bulletRoot)
                     used = false;
 
@@ -38,47 +66,9 @@ namespace BulletMLSample
         /// BulletMLの弾幕定義を自分にセット
         public void SetBullet(BulletMLTree tree)
         {
-            mlBullet.InitTop(tree);
+            InitTop(tree);
         }
 
-        ///以下、BulletMLLibに必要なインターフェイスを実装します
-
-        /// <summary>
-        /// 新しい弾(Mover)を作成するときライブラリから呼ばれる
-        /// </summary>
-        public BulletMLBullet GetNewBullet()
-        {
-            bulletRoot = true;
-            Mover mover = MoverManager.CreateMover();
-            return mover.mlBullet;
-        }
-
-        /// <summary>
-        /// 弾が消えたときにライブラリから呼び出される
-        /// </summary>
-        public void Vanish()
-        {
-            used = false;
-        }
-
-        // 座標、向き、速度のプロパティを実装します。
-        public float X
-        {
-            get { return pos.X; }
-            set { pos.X = value; }
-        }
-
-        public float Y
-        {
-            get { return pos.Y; }
-            set { pos.Y = value; }
-        }
-
-        public float Dir { get; set; }
-        public float Speed { get; set; }
-
-
+		#endregion //Methods
     }
-
- 
 }
