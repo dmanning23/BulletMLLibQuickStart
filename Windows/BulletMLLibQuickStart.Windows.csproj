@@ -842,10 +842,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\externals\BulletMLLib\Windows\BullMLLib.Windows.csproj">
-      <Project>{203274CD-9994-4562-B824-6CF9CAE40347}</Project>
-      <Name>BullMLLib.Windows</Name>
-    </ProjectReference>
     <ProjectReference Include="..\externals\FontBuddy\Windows\FontBuddy.Windows.csproj">
       <Project>{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}</Project>
       <Name>FontBuddy.Windows</Name>
@@ -857,6 +853,10 @@
     <ProjectReference Include="..\externals\HadoukInput\Windows\HadoukInput.Windows.csproj">
       <Project>{85D723F7-83EF-4C75-82BA-9385D0AC8448}</Project>
       <Name>HadoukInput.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\BulletMLLib\Windows\BulletMLLib.Windows.csproj">
+      <Project>{203274CD-9994-4562-B824-6CF9CAE40347}</Project>
+      <Name>BulletMLLib.Windows</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletMLLibQuickStart.Windows", "BulletMLLibQuickStart.Windows.csproj", "{C40CB563-3543-4225-8B3D-7F382A43FFF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullMLLib.Windows", "..\externals\BulletMLLib\Windows\BullMLLib.Windows.csproj", "{203274CD-9994-4562-B824-6CF9CAE40347}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletMLLib.Windows", "..\externals\BulletMLLib\Windows\BulletMLLib.Windows.csproj", "{203274CD-9994-4562-B824-6CF9CAE40347}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddy.Windows", "..\externals\FontBuddy\Windows\FontBuddy.Windows.csproj", "{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}"
 EndProject
