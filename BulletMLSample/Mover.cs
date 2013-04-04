@@ -6,16 +6,16 @@ using BulletMLLib;
 
 namespace BulletMLSample
 {
-    /// <summary>
-    /// 弾や敵オブジェクト（自身が弾源になる場合も、弾源から呼び出される場合もあります）
-    /// </summary>
-    class Mover : Bullet
-    {
+	/// <summary>
+	/// 弾や敵オブジェクト（自身が弾源になる場合も、弾源から呼び出される場合もあります）
+	/// </summary>
+	class Mover : Bullet
+	{
 		#region Members
 
-        public bool used;
-        public bool bulletRoot;
-        public Vector2 pos;
+		public bool used;
+		public bool bulletRoot;
+		public Vector2 pos;
 
 		#endregion //Members
 
@@ -45,30 +45,36 @@ namespace BulletMLSample
 		{
 		}
 
-        public void Init()
-        {
-            used = true;
-            bulletRoot = false;
-        }
+		public void Init()
+		{
+			used = true;
+			bulletRoot = false;
+		}
 
-        public void Update()
-        {
-            //BulletMLで自分を動かす
-            if (Run()) //自分が弾の発信源なら、処理終了後に自動的に消える
-                if(bulletRoot)
-                    used = false;
+		public override bool Update()
+		{
+			//BulletMLで自分を動かす
+			if (base.Update()) //自分が弾の発信源なら、処理終了後に自動的に消える
+			{
+				if (bulletRoot)
+				{
+					used = false;
+				}
+			}
+			if (X < 0 || X > Game1.graphics.PreferredBackBufferWidth || Y < 0 || Y > Game1.graphics.PreferredBackBufferHeight)
+			{
+				used = false;
+			}
 
-            if (X < 0 || X > Game1.graphics.PreferredBackBufferWidth || Y < 0 || Y > Game1.graphics.PreferredBackBufferHeight)
-                used = false;
-           
-        }
+			return used;
+		}
 
-        /// BulletMLの弾幕定義を自分にセット
+		/// BulletMLの弾幕定義を自分にセット
 		public void SetBullet(BulletMLNode tree)
-        {
-            InitTop(tree);
-        }
+		{
+			InitTop(tree);
+		}
 
 		#endregion //Methods
-    }
+	}
 }
