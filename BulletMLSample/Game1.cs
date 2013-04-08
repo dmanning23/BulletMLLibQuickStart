@@ -86,18 +86,17 @@ namespace BulletMLSample
 
 			texture = Content.Load<Texture2D>("Sprites\\bullet");
 
-//			//Get all the xml files in the Content\\Samples directory
-//			foreach (var source in Directory.GetFiles("Content\\Samples", "*.xml"))
-//			{
+			//Get all the xml files in the Content\\Samples directory
+			foreach (var source in Directory.GetFiles("Content\\Samples", "*.xml"))
+			{
 				//store the name
-			string source = "Content\\Samples\\[1943]_rolling_fire.xml";
 				_patternNames.Add(source);
 
 				//load the pattern
 				BulletPattern pattern = new BulletPattern();
 				pattern.ParseXML(source);
 				_myPatterns.Add(pattern);
-//			}
+			}
 
 			GameManager.GameDifficulty = this.GetRank;
 
