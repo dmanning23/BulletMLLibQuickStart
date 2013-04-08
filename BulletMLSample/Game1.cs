@@ -101,10 +101,7 @@ namespace BulletMLSample
 
 			GameManager.GameDifficulty = this.GetRank;
 
-			//?G???????????????????????A?e???f??????????
-			mover = (Mover)_moverManager.CreateBullet();
-			mover.pos = new Vector2(graphics.PreferredBackBufferWidth / 2, graphics.PreferredBackBufferHeight / 2);
-			mover.SetBullet(_myPatterns[_CurrentPattern].RootNode); //BulletML??????????????????
+			AddBullet();
 		}
 
 		protected override void UnloadContent()
@@ -138,6 +135,8 @@ namespace BulletMLSample
 				{
 					_CurrentPattern--;
 				}
+
+				AddBullet();
 			}
 			else if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.X])
 			{
@@ -151,6 +150,8 @@ namespace BulletMLSample
 				{
 					_CurrentPattern++;
 				}
+
+				AddBullet();
 			}
 
 			timer++;
@@ -159,10 +160,7 @@ namespace BulletMLSample
 				timer = 0;
 				if (mover.used == false)
 				{
-					//?G???????????????????????A?e???f??????????
-					mover = (Mover)_moverManager.CreateBullet();
-					mover.pos = new Vector2(graphics.PreferredBackBufferWidth / 4 + graphics.PreferredBackBufferWidth / 2 * (float)rand.NextDouble(), graphics.PreferredBackBufferHeight / 2 * (float)rand.NextDouble());
-					mover.SetBullet(_myPatterns[_CurrentPattern].RootNode); //BulletML??????????????????
+					AddBullet();
 				}
 			}
 
@@ -196,6 +194,17 @@ namespace BulletMLSample
 			spriteBatch.End();
 
 			base.Draw(gameTime);
+		}
+
+		private void AddBullet()
+		{
+			//clear out all the bulelts
+			_moverManager.movers.Clear();
+
+			//add a new bullet in the center of the screen
+			mover = (Mover)_moverManager.CreateBullet();
+			mover.pos = new Vector2(graphics.PreferredBackBufferWidth / 2, graphics.PreferredBackBufferHeight / 2);
+			mover.SetBullet(_myPatterns[_CurrentPattern].RootNode); //BulletML??????????????????
 		}
 	}
 
