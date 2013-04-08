@@ -51,22 +51,15 @@ namespace BulletMLSample
 			bulletRoot = false;
 		}
 
-		public override bool Update()
+		public override void Update()
 		{
 			//BulletMLで自分を動かす
-			if (base.Update()) //自分が弾の発信源なら、処理終了後に自動的に消える
-			{
-				if (bulletRoot)
-				{
-					used = false;
-				}
-			}
+			base.Update();
+
 			if (X < 0 || X > Game1.graphics.PreferredBackBufferWidth || Y < 0 || Y > Game1.graphics.PreferredBackBufferHeight)
 			{
 				used = false;
 			}
-
-			return used;
 		}
 
 		/// BulletMLの弾幕定義を自分にセット
