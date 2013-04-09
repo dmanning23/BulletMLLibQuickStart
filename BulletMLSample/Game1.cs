@@ -152,6 +152,10 @@ namespace BulletMLSample
 
 				AddBullet();
 			}
+			else if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.LTrigger])
+			{
+				AddBullet();
+			}
 
 			timer++;
 			if (timer > 60)
