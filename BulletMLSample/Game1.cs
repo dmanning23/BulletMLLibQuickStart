@@ -182,8 +182,12 @@ namespace BulletMLSample
 
 			Vector2 position = Vector2.Zero;
 
-			//say what controller we are checking
+			//say what pattern we are shooting
 			_text.Write(_patternNames[_CurrentPattern], position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			position.Y += _text.Font.MeasureString("test").Y;
+
+			//how many bullets on the screen
+			_text.Write(_moverManager.movers.Count.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
 
 			foreach (Mover mover in _moverManager.movers)
 				spriteBatch.Draw(texture, mover.pos, Color.Black);
