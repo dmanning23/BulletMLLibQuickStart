@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTimer.Windows", "..\ext
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HadoukInput.Windows", "..\externals\HadoukInput\Windows\HadoukInput.Windows.csproj", "{85D723F7-83EF-4C75-82BA-9385D0AC8448}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equationator", "..\externals\Equationator\Windows\Equationator.csproj", "{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -29,6 +31,10 @@ Global
 		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Debug|x86.Build.0 = Debug|x86
 		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|x86.ActiveCfg = Release|x86
 		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|x86.Build.0 = Release|x86
+		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Release|x86.Build.0 = Release|Any CPU
 		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Debug|x86.ActiveCfg = Debug|x86
 		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Debug|x86.Build.0 = Debug|x86
 		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Release|x86.ActiveCfg = Release|x86

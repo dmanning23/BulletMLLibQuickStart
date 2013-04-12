@@ -7,9 +7,7 @@
 [submodule "externals/BulletMLLib"]
 	path = externals/BulletMLLib
 	url = https://github.com/dmanning23/BulletMLLib.git
-[submodule "externals/CollisionBuddy"]
-	path = externals/CollisionBuddy
-	url = https://github.com/dmanning23/CollisionBuddy.git
+
 [submodule "externals/HadoukInput"]
 	path = externals/HadoukInput
 	url = https://github.com/dmanning23/HadoukInput.git
@@ -20,3 +18,6 @@
 [submodule "externals/XNA"]
 	path = externals/XNA
 	url = https://github.com/dmanning23/XnaCompiledResources.git
+[submodule "externals/Equationator"]
+	path = externals/Equationator
+	url = https://github.com/dmanning23/Equationator.git
