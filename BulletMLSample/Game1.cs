@@ -97,20 +97,6 @@ namespace BulletMLSample
 				_myPatterns.Add(pattern);
 			}
 
-//			//			//Get all the xml files in the Content\\Samples directory
-//			//			foreach (var source in Directory.GetFiles("Content\\Samples", "*.xml"))
-//			//			{
-//			string source = @"Content\Samples\[Bulletsmorph]_aba_2.xml";
-//			
-//			//store the name
-//			_patternNames.Add(source);
-//			
-//			//load the pattern
-//			BulletPattern pattern = new BulletPattern();
-//			pattern.ParseXML(source);
-//			_myPatterns.Add(pattern);
-//			//			}
-
 			GameManager.GameDifficulty = this.GetRank;
 
 			AddBullet();
