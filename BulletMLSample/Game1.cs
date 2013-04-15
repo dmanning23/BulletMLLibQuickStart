@@ -22,7 +22,6 @@ namespace BulletMLSample
 		SpriteBatch spriteBatch;
 		Texture2D texture;
 		static public Myship myship;
-		static public Random rand = new Random();
 		int timer = 0;
 		Mover mover;
 
