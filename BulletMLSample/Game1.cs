@@ -63,6 +63,7 @@ namespace BulletMLSample
 			_clock = new GameClock();
 			_inputState = new InputState();
 			_inputWrapper = new InputWrapper(PlayerIndex.One, _clock.GetCurrentTime);
+			_inputWrapper.Controller.UseKeyboard = true;
 			_moverManager = new MoverManager(myship.Position);
 		}
 
