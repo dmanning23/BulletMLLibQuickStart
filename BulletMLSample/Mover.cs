@@ -14,7 +14,6 @@ namespace BulletMLSample
 		#region Members
 
 		public bool used;
-		public bool bulletRoot;
 		public Vector2 pos;
 
 		#endregion //Members
@@ -48,7 +47,6 @@ namespace BulletMLSample
 		public void Init()
 		{
 			used = true;
-			bulletRoot = false;
 		}
 
 		public override void Update()
@@ -60,12 +58,6 @@ namespace BulletMLSample
 			{
 				used = false;
 			}
-		}
-
-		/// BulletMLの弾幕定義を自分にセット
-		public void SetBullet(BulletMLNode tree)
-		{
-			InitTop(tree);
 		}
 
 		#endregion //Methods

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using BulletMLLib;
 using Microsoft.Xna.Framework;
@@ -68,12 +67,14 @@ namespace BulletMLSample
             {
                 movers[i].Update();
             }
+
+			FreeMovers();
         }
 
         /// <summary>
         /// 使われなくなったMoverを解放する
         /// </summary>
-        public void FreeMovers()
+        private void FreeMovers()
         {
             for (int i = 0; i < movers.Count; i++)
             {
