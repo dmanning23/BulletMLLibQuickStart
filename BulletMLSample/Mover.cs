@@ -1,19 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using Microsoft.Xna.Framework;
 using BulletMLLib;
 
 namespace BulletMLSample
 {
-	/// <summary>
-	/// 弾や敵オブジェクト（自身が弾源になる場合も、弾源から呼び出される場合もあります）
-	/// </summary>
 	class Mover : Bullet
 	{
 		#region Members
 
-		public bool used;
 		public Vector2 pos;
 
 		#endregion //Members
@@ -31,6 +26,8 @@ namespace BulletMLSample
 			get { return pos.Y; }
 			set { pos.Y = value; }
 		}
+
+		public bool Used { get; set; }
 		
 		#endregion //Properties
 
@@ -46,17 +43,16 @@ namespace BulletMLSample
 
 		public void Init()
 		{
-			used = true;
+			Used = true;
 		}
 
 		public override void Update()
 		{
-			//BulletMLで自分を動かす
 			base.Update();
 
 			if (X < 0 || X > Game1.graphics.PreferredBackBufferWidth || Y < 0 || Y > Game1.graphics.PreferredBackBufferHeight)
 			{
-				used = false;
+				Used = false;
 			}
 		}
 
