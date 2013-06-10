@@ -207,7 +207,7 @@ namespace BulletMLSample
 			//add a new bullet in the center of the screen
 			mover = (Mover)_moverManager.CreateBullet();
 			mover.pos = new Vector2(graphics.PreferredBackBufferWidth / 2, graphics.PreferredBackBufferHeight / 2);
-			mover.InitTop(_myPatterns[_CurrentPattern].RootNode);
+			mover.InitTopNode(_myPatterns[_CurrentPattern].RootNode);
 		}
 
 		#endregion //Methods
