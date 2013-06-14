@@ -76,7 +76,7 @@ namespace BulletMLSample
 			base.Initialize();
 		}
 
-		public float GetRank() { return 0; }
+		public float GetRank() { return 0.5f; }
 
 		protected override void LoadContent()
 		{
