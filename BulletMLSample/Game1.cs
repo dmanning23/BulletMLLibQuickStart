@@ -22,7 +22,6 @@ namespace BulletMLSample
 		SpriteBatch spriteBatch;
 		Texture2D texture;
 		static public Myship myship;
-		int timer = 0;
 		Mover mover;
 
 		MoverManager _moverManager;
@@ -155,16 +154,6 @@ namespace BulletMLSample
 			else if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.LTrigger])
 			{
 				AddBullet();
-			}
-
-			timer++;
-			if (timer > 60)
-			{
-				timer = 0;
-				if (mover.Used == false)
-				{
-					AddBullet();
-				}
 			}
 
 			_moverManager.Update();
