@@ -8,6 +8,7 @@ using System.IO;
 using HadoukInput;
 using GameTimer;
 using FontBuddyLib;
+using System.Text;
 
 namespace BulletMLSample
 {
@@ -30,6 +31,8 @@ namespace BulletMLSample
 
 		InputState _inputState;
 		InputWrapper _inputWrapper;
+
+		float _Rank = 0.0f;
 
 		private FontBuddy _text = new FontBuddy();
 
@@ -75,7 +78,7 @@ namespace BulletMLSample
 			base.Initialize();
 		}
 
-		public float GetRank() { return 0.5f; }
+		public float GetRank() { return _Rank; }
 
 		protected override void LoadContent()
 		{
@@ -151,9 +154,37 @@ namespace BulletMLSample
 
 				AddBullet();
 			}
-			else if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.LTrigger])
+
+			//reset the bullet pattern
+			if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.LTrigger])
 			{
 				AddBullet();
+			}
+
+			//increase/decrease the rank
+			if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.LShoulder])
+			{
+				if (_Rank > 0.0f)
+				{
+					_Rank -= 0.1f;
+				}
+
+				if (_Rank < 0.0f)
+				{
+					_Rank = 0.0f;
+				}
+			}
+			else if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.RShoulder])
+			{
+				if (_Rank < 1.0f)
+				{
+					_Rank += 0.1f;
+				}
+
+				if (_Rank > 1.0f)
+				{
+					_Rank = 1.0f;
+				}
 			}
 
 			_moverManager.Update();
@@ -177,6 +208,13 @@ namespace BulletMLSample
 
 			//how many bullets on the screen
 			_text.Write(_moverManager.movers.Count.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			position.Y += _text.Font.MeasureString("test").Y;
+
+			//the current rank
+			StringBuilder rankText = new StringBuilder();
+			rankText.Append("Rank: ");
+			rankText.Append(((int)(_Rank * 10)).ToString());
+			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
 
 			foreach (Mover mover in _moverManager.movers)
 				spriteBatch.Draw(texture, mover.pos, Color.Black);
