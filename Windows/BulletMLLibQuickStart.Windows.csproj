@@ -36,7 +36,6 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="MonoGame.Framework" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -1129,6 +1128,18 @@
     <ProjectReference Include="..\externals\BulletMLLib\Windows\BulletMLLib.Windows.csproj">
       <Project>{203274CD-9994-4562-B824-6CF9CAE40347}</Project>
       <Name>BulletMLLib.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\Equationator\Windows\Equationator.csproj">
+      <Project>{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}</Project>
+      <Name>Equationator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\MonoGame\ThirdParty\Lidgren.Network\Lidgren.Network.Windows.csproj">
+      <Project>{AE483C29-042E-4226-BA52-D247CE7676DA}</Project>
+      <Name>Lidgren.Network.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\MonoGame\MonoGame.Framework\MonoGame.Framework.Windows.csproj">
+      <Project>{7DE47032-A904-4C29-BD22-2D235E8D91BA}</Project>
+      <Name>MonoGame.Framework.Windows</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
