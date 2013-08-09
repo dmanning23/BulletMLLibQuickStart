@@ -187,6 +187,26 @@ namespace BulletMLSample
 				}
 			}
 
+			//if y is held down, do some slowdown
+			if (_inputWrapper.Controller.KeystrokeHeld[(int)EKeystroke.Y])
+			{
+				_moverManager.TimeSpeed = 0.5f;
+			}
+			else
+			{
+				_moverManager.TimeSpeed = 1.0f;
+			}
+
+			//if b is held down, make it bigger
+			if (_inputWrapper.Controller.KeystrokeHeld[(int)EKeystroke.B])
+			{
+				_moverManager.Scale = 2.0f;
+			}
+			else
+			{
+				_moverManager.Scale = 1.0f;
+			}
+
 			_moverManager.Update();
 
 			myship.Update();
@@ -215,6 +235,21 @@ namespace BulletMLSample
 			rankText.Append("Rank: ");
 			rankText.Append(((int)(_Rank * 10)).ToString());
 			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			position.Y += _text.Font.MeasureString("test").Y;
+
+			//the current time speed
+			rankText = new StringBuilder();
+			rankText.Append("Time Speed: ");
+			rankText.Append(_moverManager.TimeSpeed.ToString());
+			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			position.Y += _text.Font.MeasureString("test").Y;
+
+			//the current scale
+			rankText = new StringBuilder();
+			rankText.Append("Scale: ");
+			rankText.Append(_moverManager.Scale.ToString());
+			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			position.Y += _text.Font.MeasureString("test").Y;
 
 			foreach (Mover mover in _moverManager.movers)
 				spriteBatch.Draw(texture, mover.pos, Color.Black);
