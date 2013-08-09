@@ -92,11 +92,16 @@ namespace BulletMLSample
 		
 		public Bullet CreateBullet()
 		{
+			//create the new bullet
 			Mover mover = new Mover(this);
+
+			//set the speed and scale of the bullet
 			mover.TimeSpeed = TimeSpeed;
 			mover.Scale = Scale;
-			movers.Add(mover); //Moverを登録
-			mover.Init(); //初期化
+
+			//initialize, store in our list, and return the bullet
+			mover.Init();
+			movers.Add(mover);
 			return mover;
 		}
 		
