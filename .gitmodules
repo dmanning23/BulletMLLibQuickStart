@@ -1,32 +1,30 @@
 [submodule "BulletMLSample/Content/Samples"]
 	path = BulletMLSample/Content/Samples
-	url = https://github.com/dmanning23/BulletMLExamples.git
+	url = git@github.com:dmanning23/BulletMLExamples.git
 [submodule "externals/FontBuddy"]
 	path = externals/FontBuddy
-	url = https://github.com/dmanning23/FontBuddy.git
+	url = git@github.com:dmanning23/FontBuddy.git
 [submodule "externals/BulletMLLib"]
 	path = externals/BulletMLLib
-	url = https://github.com/dmanning23/BulletMLLib.git
-
+	url = git@github.com:dmanning23/BulletMLLib.git
 [submodule "externals/HadoukInput"]
 	path = externals/HadoukInput
-	url = https://github.com/dmanning23/HadoukInput.git
-
+	url = git@github.com:dmanning23/HadoukInput.git
 [submodule "externals/GameTimer"]
 	path = externals/GameTimer
-	url = https://github.com/dmanning23/GameTimer.git
+	url = git@github.com:dmanning23/GameTimer.git
 [submodule "externals/XNA"]
 	path = externals/XNA
-	url = https://github.com/dmanning23/XnaCompiledResources.git
+	url = git@github.com:dmanning23/XnaCompiledResources.git
 [submodule "externals/Equationator"]
 	path = externals/Equationator
-	url = https://github.com/dmanning23/Equationator.git
+	url = git@github.com:dmanning23/Equationator.git
 [submodule "externals/MonoGame"]
 	path = externals/MonoGame
-	url = https://github.com/dmanning23/MonoGame.git
+	url = git@github.com:dmanning23/MonoGame.git
 [submodule "externals/ouya-csharp"]
 	path = externals/ouya-csharp
-	url = https://github.com/dmanning23/ouya-csharp.git
+	url = git@github.com:dmanning23/ouya-csharp.git
 [submodule "externals/MatrixExtensions"]
 	path = externals/MatrixExtensions
 	url = git@github.com:dmanning23/MatrixExtensions.git
