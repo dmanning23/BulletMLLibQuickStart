@@ -27,3 +27,9 @@
 [submodule "externals/ouya-csharp"]
 	path = externals/ouya-csharp
 	url = https://github.com/dmanning23/ouya-csharp.git
+[submodule "externals/MatrixExtensions"]
+	path = externals/MatrixExtensions
+	url = git@github.com:dmanning23/MatrixExtensions.git
+[submodule "externals/Filename"]
+	path = externals/Filename
+	url = git@github.com:dmanning23/Filename.git

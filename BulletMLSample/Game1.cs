@@ -64,7 +64,7 @@ namespace BulletMLSample
 
 			_clock = new GameClock();
 			_inputState = new InputState();
-			_inputWrapper = new InputWrapper(PlayerIndex.One, _clock.GetCurrentTime);
+			_inputWrapper = new InputWrapper(new ControllerWrapper(PlayerIndex.One, true), _clock.GetCurrentTime);
 			_inputWrapper.Controller.UseKeyboard = true;
 			_moverManager = new MoverManager(myship.Position);
 		}
@@ -124,7 +124,7 @@ namespace BulletMLSample
 			_inputWrapper.Update(_inputState, false);
 
 			//check input to increment/decrement the current bullet pattern
-			if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.A])
+			if (_inputWrapper.Controller.CheckKeystroke(EKeystroke.LShoulder))
 			{
 				//decrement the pattern
 				if (0 >= _CurrentPattern)
@@ -139,7 +139,7 @@ namespace BulletMLSample
 
 				AddBullet();
 			}
-			else if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.X])
+			else if (_inputWrapper.Controller.CheckKeystroke(EKeystroke.RShoulder))
 			{
 				//increment the pattern
 				if ((_myPatterns.Count - 1) <= _CurrentPattern)
@@ -156,13 +156,13 @@ namespace BulletMLSample
 			}
 
 			//reset the bullet pattern
-			if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.LTrigger])
+			if (_inputWrapper.Controller.CheckKeystroke(EKeystroke.A))
 			{
 				AddBullet();
 			}
 
 			//increase/decrease the rank
-			if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.LShoulder])
+			if (_inputWrapper.Controller.CheckKeystroke(EKeystroke.LShoulder))
 			{
 				if (_Rank > 0.0f)
 				{
@@ -174,7 +174,7 @@ namespace BulletMLSample
 					_Rank = 0.0f;
 				}
 			}
-			else if (_inputWrapper.Controller.KeystrokePress[(int)EKeystroke.RShoulder])
+			else if (_inputWrapper.Controller.CheckKeystroke(EKeystroke.RShoulder))
 			{
 				if (_Rank < 1.0f)
 				{
@@ -188,7 +188,7 @@ namespace BulletMLSample
 			}
 
 			//if y is held down, do some slowdown
-			if (_inputWrapper.Controller.KeystrokeHeld[(int)EKeystroke.Y])
+			if (_inputWrapper.Controller.CheckKeystroke(EKeystroke.Y))
 			{
 				_moverManager.TimeSpeed = 0.5f;
 			}
@@ -198,13 +198,13 @@ namespace BulletMLSample
 			}
 
 			//if b is held down, make it bigger
-			if (_inputWrapper.Controller.KeystrokeHeld[(int)EKeystroke.B])
+			if (_inputWrapper.Controller.CheckKeystroke(EKeystroke.LTrigger))
 			{
-				_moverManager.Scale = 2.0f;
+				_moverManager.Scale -= 0.1f;
 			}
-			else
+			else if (_inputWrapper.Controller.CheckKeystroke(EKeystroke.RTrigger))
 			{
-				_moverManager.Scale = 1.0f;
+				_moverManager.Scale += 0.1f;
 			}
 
 			_moverManager.Update();
