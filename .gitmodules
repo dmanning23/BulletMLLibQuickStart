@@ -1,6 +1,3 @@
-[submodule "BulletMLSample/Content/Samples"]
-	path = BulletMLSample/Content/Samples
-	url = git@github.com:dmanning23/BulletMLExamples.git
 [submodule "externals/FontBuddy"]
 	path = externals/FontBuddy
 	url = git@github.com:dmanning23/FontBuddy.git
