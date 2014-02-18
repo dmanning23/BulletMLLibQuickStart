@@ -28,3 +28,6 @@
 [submodule "externals/Filename"]
 	path = externals/Filename
 	url = git@github.com:dmanning23/Filename.git
+[submodule "externals/BulletMLExamples"]
+	path = externals/BulletMLExamples
+	url = git@github.com:dmanning23/BulletMLExamples.git
