@@ -52,224 +52,1045 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Samples\16way.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\22way.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\2round.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\2way2side.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\4way.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\57way.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\6gt.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\88way %282%29.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\88way.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\8way.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\aim.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\aim_accel_90deg.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\allround.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\backshot.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\bar.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\bar_s.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\beewinder.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\change_straight.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\divide.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\double_roll_seeds.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\fire_slowshot.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\fire_vrt.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\forward_3way.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\grow.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\growround.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\mnway.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\naim.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\nway %282%29.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\nway.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\nwroll.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\oval.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\readme_e.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\reverse.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\roll2way.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\roll4way.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\rollbar %282%29.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\rollbar.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\rollway.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\roll_battery.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\roll_slow.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\shotgun.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\sidenway.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\sideshot.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\side_back_shot.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\side_cracker %282%29.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\side_cracker.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\side_front_shot.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\slowdown.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\spread2blt.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\spread_bf.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\wide.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\wide_spread.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[daiouzyou]_r1_boss_1.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[daiouzyou]_r1_boss_2.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[daiouzyou]_r1_boss_3.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[Guwange]_round_2_boss_circle_fire.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[Guwange]_round_4_boss_eye_ball %282%29.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[Guwange]_round_4_boss_eye_ball.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[ketsui]_r1_boss_bit_shot.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[ketsui]_r2_boss_rkt.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[ketsui]_r3_boss_fastspread.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[ketsui]_r4_boss_change_aim.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[ketsui]_r4_boss_rb_rockets %282%29.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[ketsui]_r4_boss_rb_rockets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[Progear]_round_1_boss_grow_bullets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[Progear]_round_3_boss_wave_bullets %282%29.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[Progear]_round_3_boss_wave_bullets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[Progear]_round_5_middle_boss_rockets.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Samples\[Psyvariar]_X-A_boss_opening.xml">
+    <Content Include="..\externals\BulletMLExamples\bulletml.dtd">
+      <Link>Content\Samples\bulletml.dtd</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Icon.png" />
+    <Content Include="..\externals\BulletMLExamples\rr\16way.xml">
+      <Link>Content\Samples\16way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\22way.xml">
+      <Link>Content\Samples\22way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\2round.xml">
+      <Link>Content\Samples\2round.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\2way2side.xml">
+      <Link>Content\Samples\2way2side.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\4way.xml">
+      <Link>Content\Samples\4way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\57way.xml">
+      <Link>Content\Samples\57way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\6gt.xml">
+      <Link>Content\Samples\6gt.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\88way %282%29.xml">
+      <Link>Content\Samples\88way %282%29.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\88way.xml">
+      <Link>Content\Samples\88way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\8way.xml">
+      <Link>Content\Samples\8way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\aim.xml">
+      <Link>Content\Samples\aim.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\aim_accel_90deg.xml">
+      <Link>Content\Samples\aim_accel_90deg.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\allround.xml">
+      <Link>Content\Samples\allround.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\backshot.xml">
+      <Link>Content\Samples\backshot.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\bar.xml">
+      <Link>Content\Samples\bar.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\bar_s.xml">
+      <Link>Content\Samples\bar_s.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\beewinder.xml">
+      <Link>Content\Samples\beewinder.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\change_straight.xml">
+      <Link>Content\Samples\change_straight.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\divide.xml">
+      <Link>Content\Samples\divide.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\double_roll_seeds.xml">
+      <Link>Content\Samples\double_roll_seeds.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\fire_slowshot.xml">
+      <Link>Content\Samples\fire_slowshot.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\fire_vrt.xml">
+      <Link>Content\Samples\fire_vrt.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\forward_3way.xml">
+      <Link>Content\Samples\forward_3way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\grow.xml">
+      <Link>Content\Samples\grow.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\growround.xml">
+      <Link>Content\Samples\growround.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\mnway.xml">
+      <Link>Content\Samples\mnway.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\naim.xml">
+      <Link>Content\Samples\naim.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\nway %282%29.xml">
+      <Link>Content\Samples\nway %282%29.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\nway.xml">
+      <Link>Content\Samples\nway.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\nwroll.xml">
+      <Link>Content\Samples\nwroll.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\oval.xml">
+      <Link>Content\Samples\oval.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\readme_e.txt">
+      <Link>Content\Samples\readme_e.txt</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\reverse.xml">
+      <Link>Content\Samples\reverse.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\roll2way.xml">
+      <Link>Content\Samples\roll2way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\roll4way.xml">
+      <Link>Content\Samples\roll4way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\rollbar %282%29.xml">
+      <Link>Content\Samples\rollbar %282%29.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\rollbar.xml">
+      <Link>Content\Samples\rollbar.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\rollway.xml">
+      <Link>Content\Samples\rollway.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\roll_battery.xml">
+      <Link>Content\Samples\roll_battery.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\roll_slow.xml">
+      <Link>Content\Samples\roll_slow.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\shotgun.xml">
+      <Link>Content\Samples\shotgun.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\sidenway.xml">
+      <Link>Content\Samples\sidenway.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\sideshot.xml">
+      <Link>Content\Samples\sideshot.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\side_back_shot.xml">
+      <Link>Content\Samples\side_back_shot.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\side_cracker %282%29.xml">
+      <Link>Content\Samples\side_cracker %282%29.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\side_cracker.xml">
+      <Link>Content\Samples\side_cracker.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\side_front_shot.xml">
+      <Link>Content\Samples\side_front_shot.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\slowdown.xml">
+      <Link>Content\Samples\slowdown.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\spread2blt.xml">
+      <Link>Content\Samples\spread2blt.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\spread_bf.xml">
+      <Link>Content\Samples\spread_bf.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\wide.xml">
+      <Link>Content\Samples\wide.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\wide_spread.xml">
+      <Link>Content\Samples\wide_spread.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[daiouzyou]_r1_boss_1.xml">
+      <Link>Content\Samples\[daiouzyou]_r1_boss_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[daiouzyou]_r1_boss_2.xml">
+      <Link>Content\Samples\[daiouzyou]_r1_boss_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[daiouzyou]_r1_boss_3.xml">
+      <Link>Content\Samples\[daiouzyou]_r1_boss_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[Guwange]_round_4_boss_eye_ball %282%29.xml">
+      <Link>Content\Samples\[Guwange]_round_4_boss_eye_ball %282%29.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[ketsui]_r1_boss_bit_shot.xml">
+      <Link>Content\Samples\[ketsui]_r1_boss_bit_shot.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[ketsui]_r2_boss_rkt.xml">
+      <Link>Content\Samples\[ketsui]_r2_boss_rkt.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[ketsui]_r3_boss_fastspread.xml">
+      <Link>Content\Samples\[ketsui]_r3_boss_fastspread.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[ketsui]_r4_boss_change_aim.xml">
+      <Link>Content\Samples\[ketsui]_r4_boss_change_aim.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[ketsui]_r4_boss_rb_rockets %282%29.xml">
+      <Link>Content\Samples\[ketsui]_r4_boss_rb_rockets %282%29.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[ketsui]_r4_boss_rb_rockets.xml">
+      <Link>Content\Samples\[ketsui]_r4_boss_rb_rockets.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\rr\[Progear]_round_3_boss_wave_bullets %282%29.xml">
+      <Link>Content\Samples\[Progear]_round_3_boss_wave_bullets %282%29.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[1943]_rolling_fire.xml">
+      <Link>Content\Samples\[1943]_rolling_fire.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_aba_1.xml">
+      <Link>Content\Samples\[Bulletsmorph]_aba_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_aba_2.xml">
+      <Link>Content\Samples\[Bulletsmorph]_aba_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_aba_3.xml">
+      <Link>Content\Samples\[Bulletsmorph]_aba_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_aba_4.xml">
+      <Link>Content\Samples\[Bulletsmorph]_aba_4.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_aba_5.xml">
+      <Link>Content\Samples\[Bulletsmorph]_aba_5.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_aba_6.xml">
+      <Link>Content\Samples\[Bulletsmorph]_aba_6.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_aba_7.xml">
+      <Link>Content\Samples\[Bulletsmorph]_aba_7.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_convergent.xml">
+      <Link>Content\Samples\[Bulletsmorph]_convergent.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_double_seduction.xml">
+      <Link>Content\Samples\[Bulletsmorph]_double_seduction.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_fallen_string.xml">
+      <Link>Content\Samples\[Bulletsmorph]_fallen_string.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_kunekune_plus_homing.xml">
+      <Link>Content\Samples\[Bulletsmorph]_kunekune_plus_homing.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Bulletsmorph]_satoru4.xml">
+      <Link>Content\Samples\[Bulletsmorph]_satoru4.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ChaosSeed]_big_monkey_boss.xml">
+      <Link>Content\Samples\[ChaosSeed]_big_monkey_boss.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_hibachi_1.xml">
+      <Link>Content\Samples\[Daiouzyou]_hibachi_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_hibachi_2.xml">
+      <Link>Content\Samples\[Daiouzyou]_hibachi_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_hibachi_3.xml">
+      <Link>Content\Samples\[Daiouzyou]_hibachi_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_hibachi_4.xml">
+      <Link>Content\Samples\[Daiouzyou]_hibachi_4.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_hibachi_image.xml">
+      <Link>Content\Samples\[Daiouzyou]_hibachi_image.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_hibachi_maybe.xml">
+      <Link>Content\Samples\[Daiouzyou]_hibachi_maybe.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_1_boss.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_1_boss.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_1_boss_hakkyou.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_1_boss_hakkyou.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_3_boss.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_3_boss.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_3_boss_2.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_3_boss_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_3_boss_last.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_3_boss_last.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_4_boss.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_4_boss.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_4_boss_1.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_4_boss_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_4_boss_2.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_4_boss_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_4_boss_4.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_4_boss_4.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_4_boss_5.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_4_boss_5.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_5_boss_1.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_5_boss_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_5_boss_2.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_5_boss_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_6_boss_1.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_6_boss_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_6_boss_2.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_6_boss_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_6_boss_3.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_6_boss_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_6_boss_4.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_6_boss_4.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Daiouzyou]_round_6_boss_5.xml">
+      <Link>Content\Samples\[Daiouzyou]_round_6_boss_5.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Dodonpachi]_hibachi.xml">
+      <Link>Content\Samples\[Dodonpachi]_hibachi.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Dodonpachi]_kitiku_1.xml">
+      <Link>Content\Samples\[Dodonpachi]_kitiku_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Dodonpachi]_kitiku_2.xml">
+      <Link>Content\Samples\[Dodonpachi]_kitiku_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Dodonpachi]_kitiku_3.xml">
+      <Link>Content\Samples\[Dodonpachi]_kitiku_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Dodonpachi]_kitiku_5.xml">
+      <Link>Content\Samples\[Dodonpachi]_kitiku_5.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[DragonBlaze]_nebyurosu_2.xml">
+      <Link>Content\Samples\[DragonBlaze]_nebyurosu_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_123_boss_izuna_fan.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_123_boss_izuna_fan.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_123_boss_izuna_hakkyou.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_123_boss_izuna_hakkyou.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_123_boss_pelaboy_hakkyou.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_123_boss_pelaboy_hakkyou.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_123_boss_satoru_5way.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_123_boss_satoru_5way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_5_alice_clone.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_5_alice_clone.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_5_boss_ares_2.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_5_boss_ares_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_5_boss_gara_1_a.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_5_boss_gara_1_a.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_5_boss_gara_1_b.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_5_boss_gara_1_b.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_5_boss_gara_2.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_5_boss_gara_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_5_boss_gara_3.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_5_boss_gara_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_5_boss_gara_4.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_5_boss_gara_4.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_5_boss_gara_5.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_5_boss_gara_5.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_5_boss_kakusi_hakkyou.xml">
+      <Link>Content\Samples\[ESP_RADE]_round_5_boss_kakusi_hakkyou.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[G-Wange]_roll_gara.xml">
+      <Link>Content\Samples\[G-Wange]_roll_gara.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[G-Wange]_round_trip_bit.xml">
+      <Link>Content\Samples\[G-Wange]_round_trip_bit.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Garegga]_black_heart_mk2_winder.xml">
+      <Link>Content\Samples\[Garegga]_black_heart_mk2_winder.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[GigaWing2]_akurimi.xml">
+      <Link>Content\Samples\[GigaWing2]_akurimi.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Guwange]_round_2_boss_circle_fire.xml">
+      <Link>Content\Samples\[Guwange]_round_2_boss_circle_fire.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Guwange]_round_3_boss_fast_3way.xml">
+      <Link>Content\Samples\[Guwange]_round_3_boss_fast_3way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Guwange]_round_4_boss_eye_ball.xml">
+      <Link>Content\Samples\[Guwange]_round_4_boss_eye_ball.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[G_DARIUS]_homing_laser.xml">
+      <Link>Content\Samples\[G_DARIUS]_homing_laser.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Ketui_LT]_1boss_bit.xml">
+      <Link>Content\Samples\[Ketui_LT]_1boss_bit.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Ketui_LT]_2boss_winder_crash.xml">
+      <Link>Content\Samples\[Ketui_LT]_2boss_winder_crash.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Ketui_LT]_3boss_kunekune.xml">
+      <Link>Content\Samples\[Ketui_LT]_3boss_kunekune.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Ketui_LT]_3boss_roll_and_aim.xml">
+      <Link>Content\Samples\[Ketui_LT]_3boss_roll_and_aim.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_10flower_2.xml">
+      <Link>Content\Samples\[MDA]_10flower_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_14b_2-3w.xml">
+      <Link>Content\Samples\[MDA]_14b_2-3w.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_2f.xml">
+      <Link>Content\Samples\[MDA]_2f.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_75l-42.xml">
+      <Link>Content\Samples\[MDA]_75l-42.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_acc_n_dec.xml">
+      <Link>Content\Samples\[MDA]_acc_n_dec.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_circular.xml">
+      <Link>Content\Samples\[MDA]_circular.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_circular_model.xml">
+      <Link>Content\Samples\[MDA]_circular_model.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_circular_sun.xml">
+      <Link>Content\Samples\[MDA]_circular_sun.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_double_w.xml">
+      <Link>Content\Samples\[MDA]_double_w.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_fukuro.xml">
+      <Link>Content\Samples\[MDA]_fukuro.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_gnnnyari.xml">
+      <Link>Content\Samples\[MDA]_gnnnyari.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_mojya.xml">
+      <Link>Content\Samples\[MDA]_mojya.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_mossari.xml">
+      <Link>Content\Samples\[MDA]_mossari.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[MDA]_wind_cl.xml">
+      <Link>Content\Samples\[MDA]_wind_cl.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Noiz2sa]_5_players.xml">
+      <Link>Content\Samples\[Noiz2sa]_5_players.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Noiz2sa]_88way.xml">
+      <Link>Content\Samples\[Noiz2sa]_88way.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Noiz2sa]_bit.xml">
+      <Link>Content\Samples\[Noiz2sa]_bit.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Noiz2sa]_rollbar.xml">
+      <Link>Content\Samples\[Noiz2sa]_rollbar.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_accusation.xml">
+      <Link>Content\Samples\[Original]_accusation.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_air_elemental.xml">
+      <Link>Content\Samples\[Original]_air_elemental.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_backfire.xml">
+      <Link>Content\Samples\[Original]_backfire.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_balloon_bomb.xml">
+      <Link>Content\Samples\[Original]_balloon_bomb.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_btb_1.xml">
+      <Link>Content\Samples\[Original]_btb_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_btb_2.xml">
+      <Link>Content\Samples\[Original]_btb_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_btb_3.xml">
+      <Link>Content\Samples\[Original]_btb_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_btb_4.xml">
+      <Link>Content\Samples\[Original]_btb_4.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_btb_5.xml">
+      <Link>Content\Samples\[Original]_btb_5.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_btb_6.xml">
+      <Link>Content\Samples\[Original]_btb_6.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_censored.xml">
+      <Link>Content\Samples\[Original]_censored.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_chimera.xml">
+      <Link>Content\Samples\[Original]_chimera.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_circle.xml">
+      <Link>Content\Samples\[Original]_circle.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_cont_circle.xml">
+      <Link>Content\Samples\[Original]_cont_circle.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_dokkaan.xml">
+      <Link>Content\Samples\[Original]_dokkaan.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_ellipse_bomb.xml">
+      <Link>Content\Samples\[Original]_ellipse_bomb.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_entangled_space.xml">
+      <Link>Content\Samples\[Original]_entangled_space.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_evil_eye.xml">
+      <Link>Content\Samples\[Original]_evil_eye.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_extinction.xml">
+      <Link>Content\Samples\[Original]_extinction.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_fujin_ranbu_fake.xml">
+      <Link>Content\Samples\[Original]_fujin_ranbu_fake.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_fujin_ranbu_true.xml">
+      <Link>Content\Samples\[Original]_fujin_ranbu_true.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_guruguru.xml">
+      <Link>Content\Samples\[Original]_guruguru.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_gurutyo.xml">
+      <Link>Content\Samples\[Original]_gurutyo.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_gyakuhunsya.xml">
+      <Link>Content\Samples\[Original]_gyakuhunsya.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_hajike.xml">
+      <Link>Content\Samples\[Original]_hajike.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_hasami.xml">
+      <Link>Content\Samples\[Original]_hasami.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_hirahira.xml">
+      <Link>Content\Samples\[Original]_hirahira.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_housya.xml">
+      <Link>Content\Samples\[Original]_housya.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_kagome.xml">
+      <Link>Content\Samples\[Original]_kagome.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_kedama.xml">
+      <Link>Content\Samples\[Original]_kedama.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_knight_1.xml">
+      <Link>Content\Samples\[Original]_knight_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_knight_2.xml">
+      <Link>Content\Samples\[Original]_knight_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_knight_3.xml">
+      <Link>Content\Samples\[Original]_knight_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_knight_4.xml">
+      <Link>Content\Samples\[Original]_knight_4.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_kotai.xml">
+      <Link>Content\Samples\[Original]_kotai.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_kujira.xml">
+      <Link>Content\Samples\[Original]_kujira.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_kunekune.xml">
+      <Link>Content\Samples\[Original]_kunekune.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_light_lv10.xml">
+      <Link>Content\Samples\[Original]_light_lv10.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_light_lv25.xml">
+      <Link>Content\Samples\[Original]_light_lv25.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_light_max.xml">
+      <Link>Content\Samples\[Original]_light_max.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_oogi_hutatsu.xml">
+      <Link>Content\Samples\[Original]_oogi_hutatsu.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_optic_seeker.xml">
+      <Link>Content\Samples\[Original]_optic_seeker.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_pan.xml">
+      <Link>Content\Samples\[Original]_pan.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_progear_cheap_fake.xml">
+      <Link>Content\Samples\[Original]_progear_cheap_fake.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_sakuretudan.xml">
+      <Link>Content\Samples\[Original]_sakuretudan.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_shooting_star.xml">
+      <Link>Content\Samples\[Original]_shooting_star.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_star_in_the_sky.xml">
+      <Link>Content\Samples\[Original]_star_in_the_sky.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_stone6.xml">
+      <Link>Content\Samples\[Original]_stone6.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_stop_and_run.xml">
+      <Link>Content\Samples\[Original]_stop_and_run.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_time_twist.xml">
+      <Link>Content\Samples\[Original]_time_twist.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_tsunami.xml">
+      <Link>Content\Samples\[Original]_tsunami.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_two_cross.xml">
+      <Link>Content\Samples\[Original]_two_cross.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_uneri.xml">
+      <Link>Content\Samples\[Original]_uneri.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_wana.xml">
+      <Link>Content\Samples\[Original]_wana.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_water_lv10.xml">
+      <Link>Content\Samples\[Original]_water_lv10.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_water_lv25.xml">
+      <Link>Content\Samples\[Original]_water_lv25.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_water_max.xml">
+      <Link>Content\Samples\[Original]_water_max.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_yokokasoku.xml">
+      <Link>Content\Samples\[Original]_yokokasoku.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Original]_zako_atack.xml">
+      <Link>Content\Samples\[Original]_zako_atack.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_accel_jump.xml">
+      <Link>Content\Samples\[OtakuTwo]_accel_jump.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_circle_fireworks.xml">
+      <Link>Content\Samples\[OtakuTwo]_circle_fireworks.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_circle_fireworks2.xml">
+      <Link>Content\Samples\[OtakuTwo]_circle_fireworks2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_circle_roll.xml">
+      <Link>Content\Samples\[OtakuTwo]_circle_roll.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_circle_trap.xml">
+      <Link>Content\Samples\[OtakuTwo]_circle_trap.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_dis_bee_1.xml">
+      <Link>Content\Samples\[OtakuTwo]_dis_bee_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_dis_bee_2.xml">
+      <Link>Content\Samples\[OtakuTwo]_dis_bee_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_dis_bee_3.xml">
+      <Link>Content\Samples\[OtakuTwo]_dis_bee_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_dis_bee_hakkyou.xml">
+      <Link>Content\Samples\[OtakuTwo]_dis_bee_hakkyou.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_restriction_stasis.xml">
+      <Link>Content\Samples\[OtakuTwo]_restriction_stasis.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_roll_misago.xml">
+      <Link>Content\Samples\[OtakuTwo]_roll_misago.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-0012.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-0012.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-0034.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-0034.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-0036.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-0036.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-0062.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-0062.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-0063.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-0063.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-0071.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-0071.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-0081.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-0081.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-1010.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-1010.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-1011.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-1011.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-1020.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-1020.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-1021.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-1021.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-2010.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-2010.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-2011.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-2011.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_self-2020.xml">
+      <Link>Content\Samples\[OtakuTwo]_self-2020.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_slow_move.xml">
+      <Link>Content\Samples\[OtakuTwo]_slow_move.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_10_boss_before_final.xml">
+      <Link>Content\Samples\[Progear]_round_10_boss_before_final.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_1_boss_grow_bullets.xml">
+      <Link>Content\Samples\[Progear]_round_1_boss_grow_bullets.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_2_boss_struggling.xml">
+      <Link>Content\Samples\[Progear]_round_2_boss_struggling.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_3_boss_back_burst.xml">
+      <Link>Content\Samples\[Progear]_round_3_boss_back_burst.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_3_boss_wave_bullets.xml">
+      <Link>Content\Samples\[Progear]_round_3_boss_wave_bullets.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_4_boss_fast_rocket.xml">
+      <Link>Content\Samples\[Progear]_round_4_boss_fast_rocket.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_5_boss_last_round_wave.xml">
+      <Link>Content\Samples\[Progear]_round_5_boss_last_round_wave.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_5_middle_boss_rockets.xml">
+      <Link>Content\Samples\[Progear]_round_5_middle_boss_rockets.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_6_boss_parabola_shot.xml">
+      <Link>Content\Samples\[Progear]_round_6_boss_parabola_shot.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Progear]_round_9_boss.xml">
+      <Link>Content\Samples\[Progear]_round_9_boss.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Psyvariar]_4-D_boss_MZIQ.xml">
+      <Link>Content\Samples\[Psyvariar]_4-D_boss_MZIQ.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Psyvariar]_X-A_boss_opening.xml">
+      <Link>Content\Samples\[Psyvariar]_X-A_boss_opening.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Psyvariar]_X-A_boss_winder.xml">
+      <Link>Content\Samples\[Psyvariar]_X-A_boss_winder.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Psyvariar]_X-B_colony_shape_satellite.xml">
+      <Link>Content\Samples\[Psyvariar]_X-B_colony_shape_satellite.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[SilverGun]_4D_boss_PENTA.xml">
+      <Link>Content\Samples\[SilverGun]_4D_boss_PENTA.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[STORM_CALIBAR]_last_boss_double_roll_bullets.xml">
+      <Link>Content\Samples\[STORM_CALIBAR]_last_boss_double_roll_bullets.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[Strikers1999]_hanabi.xml">
+      <Link>Content\Samples\[Strikers1999]_hanabi.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[tenmado]_3_boss_2.xml">
+      <Link>Content\Samples\[tenmado]_3_boss_2.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[tenmado]_5_boss_1.xml">
+      <Link>Content\Samples\[tenmado]_5_boss_1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[tenmado]_5_boss_3.xml">
+      <Link>Content\Samples\[tenmado]_5_boss_3.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[XEVIOUS]_garu_zakato.xml">
+      <Link>Content\Samples\[XEVIOUS]_garu_zakato.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[XII_STAG]_3b.xml">
+      <Link>Content\Samples\[XII_STAG]_3b.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\externals\BulletMLExamples\[xsoldier]_8_boss_main.xml">
+      <Link>Content\Samples\[xsoldier]_8_boss_main.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="..\Source\Content\Sprites\bullet.png">
       <Link>Content\Sprites\bullet.png</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\ArialBlack14.xnb">
       <Link>Content\ArialBlack14.xnb</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\externals\BulletMLExamples\bulletml.dtd">
-      <Link>Content\Samples\bulletml.dtd</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
