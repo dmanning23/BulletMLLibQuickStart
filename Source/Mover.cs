@@ -46,10 +46,8 @@ namespace BulletMLSample
 			Used = true;
 		}
 
-		public override void Update()
+		public override void PostUpdate()
 		{
-			base.Update();
-
 			if (X < 0 || X > Game1.graphics.PreferredBackBufferWidth || Y < 0 || Y > Game1.graphics.PreferredBackBufferHeight)
 			{
 				Used = false;
