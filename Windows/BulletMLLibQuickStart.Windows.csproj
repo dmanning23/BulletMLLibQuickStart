@@ -504,10 +504,6 @@
       <Link>Content\Samples\[DragonBlaze]_nebyurosu_2.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_123_boss_izuna_fan.xml">
-      <Link>Content\Samples\[ESP_RADE]_round_123_boss_izuna_fan.xml</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\externals\BulletMLExamples\[ESP_RADE]_round_123_boss_izuna_hakkyou.xml">
       <Link>Content\Samples\[ESP_RADE]_round_123_boss_izuna_hakkyou.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
