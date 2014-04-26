@@ -892,10 +892,6 @@
       <Link>Content\Samples\[Original]_wana.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\externals\BulletMLExamples\[Original]_water_lv10.xml">
-      <Link>Content\Samples\[Original]_water_lv10.xml</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\externals\BulletMLExamples\[Original]_water_lv25.xml">
       <Link>Content\Samples\[Original]_water_lv25.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -910,10 +906,6 @@
     </Content>
     <Content Include="..\externals\BulletMLExamples\[Original]_zako_atack.xml">
       <Link>Content\Samples\[Original]_zako_atack.xml</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_accel_jump.xml">
-      <Link>Content\Samples\[OtakuTwo]_accel_jump.xml</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="..\externals\BulletMLExamples\[OtakuTwo]_circle_fireworks.xml">
