@@ -264,10 +264,10 @@ namespace BulletMLSample
 		private void AddBullet()
 		{
 			//clear out all the bulelts
-			_moverManager.movers.Clear();
+			_moverManager.Clear();
 
 			//add a new bullet in the center of the screen
-			mover = (Mover)_moverManager.CreateBullet();
+			mover = (Mover)_moverManager.CreateTopBullet();
 			mover.pos = new Vector2(graphics.PreferredBackBufferWidth / 2, graphics.PreferredBackBufferHeight / 2);
 			mover.InitTopNode(_myPatterns[_CurrentPattern].RootNode);
 		}

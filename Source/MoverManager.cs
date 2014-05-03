@@ -12,6 +12,8 @@ namespace BulletMLSample
 
 		public List<Mover> movers = new List<Mover>();
 
+		public List<Mover> topLevelMovers = new List<Mover>();
+
 		public PositionDelegate GetPlayerPosition;
 
 		private float _timeSpeed = 1.0f;
@@ -104,6 +106,26 @@ namespace BulletMLSample
 			movers.Add(mover);
 			return mover;
 		}
+
+		/// <summary>
+		/// Create a new bullet that will be initialized from a top level node.
+		/// These are usually special bullets that dont need to be drawn or kept around after they finish tasks etc.
+		/// </summary>
+		/// <returns>A shiny new top-level bullet</returns>
+		public Bullet CreateTopBullet()
+		{
+			//create the new bullet
+			Mover mover = new Mover(this);
+
+			//set the speed and scale of the bullet
+			mover.TimeSpeed = TimeSpeed;
+			mover.Scale = Scale;
+
+			//initialize, store in our list, and return the bullet
+			mover.Init();
+			topLevelMovers.Add(mover);
+			return mover;
+		}
 		
 		public void RemoveBullet(Bullet deadBullet)
 		{
@@ -121,6 +143,11 @@ namespace BulletMLSample
 				movers[i].Update();
 			}
 
+			for (int i = 0; i < topLevelMovers.Count; i++)
+			{
+				topLevelMovers[i].Update();
+			}
+
 			FreeMovers();
 		}
 
@@ -134,6 +161,22 @@ namespace BulletMLSample
 					i--;
 				}
 			}
+
+			//clear out top level bullets
+			for (int i = 0; i < topLevelMovers.Count; i++)
+			{
+				if (topLevelMovers[i].TasksFinished())
+				{
+					topLevelMovers.RemoveAt(i);
+					i--;
+				}
+			}
+		}
+
+		public void Clear()
+		{
+			movers.Clear();
+			topLevelMovers.Clear();
 		}
 	}
 }
