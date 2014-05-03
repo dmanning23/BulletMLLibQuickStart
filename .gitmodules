@@ -16,9 +16,6 @@
 [submodule "externals/Equationator"]
 	path = externals/Equationator
 	url = git@github.com:dmanning23/Equationator.git
-[submodule "externals/MonoGame"]
-	path = externals/MonoGame
-	url = git@github.com:dmanning23/MonoGame.git
 [submodule "externals/ouya-csharp"]
 	path = externals/ouya-csharp
 	url = git@github.com:dmanning23/ouya-csharp.git
