@@ -5,7 +5,7 @@ using BulletMLLib;
 
 namespace BulletMLSample
 {
-	class Mover : Bullet
+	public class Mover : Bullet
 	{
 		#region Members
 

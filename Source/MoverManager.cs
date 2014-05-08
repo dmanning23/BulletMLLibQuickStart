@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace BulletMLSample
 {
-	class MoverManager : IBulletManager
+	public class MoverManager : IBulletManager
 	{
 		#region Members
 
@@ -85,14 +85,14 @@ namespace BulletMLSample
 		/// </summary>
 		/// <returns>The position to aim the bullet at</returns>
 		/// <param name="targettedBullet">the bullet we are getting a target for</param>
-		public Vector2 PlayerPosition(Bullet targettedBullet)
+		public Vector2 PlayerPosition(IBullet targettedBullet)
 		{
 			//just give the player's position
 			Debug.Assert(null != GetPlayerPosition);
 			return GetPlayerPosition();
 		}
 		
-		public Bullet CreateBullet()
+		public IBullet CreateBullet()
 		{
 			//create the new bullet
 			Mover mover = new Mover(this);
@@ -112,7 +112,7 @@ namespace BulletMLSample
 		/// These are usually special bullets that dont need to be drawn or kept around after they finish tasks etc.
 		/// </summary>
 		/// <returns>A shiny new top-level bullet</returns>
-		public Bullet CreateTopBullet()
+		public IBullet CreateTopBullet()
 		{
 			//create the new bullet
 			Mover mover = new Mover(this);
@@ -127,7 +127,7 @@ namespace BulletMLSample
 			return mover;
 		}
 		
-		public void RemoveBullet(Bullet deadBullet)
+		public void RemoveBullet(IBullet deadBullet)
 		{
 			Mover myMover = deadBullet as Mover;
 			if (myMover != null)
@@ -151,7 +151,7 @@ namespace BulletMLSample
 			FreeMovers();
 		}
 
-		private void FreeMovers()
+		public void FreeMovers()
 		{
 			for (int i = 0; i < movers.Count; i++)
 			{
@@ -177,6 +177,11 @@ namespace BulletMLSample
 		{
 			movers.Clear();
 			topLevelMovers.Clear();
+		}
+
+		public float Tier()
+		{
+			return 0.0f;
 		}
 	}
 }
