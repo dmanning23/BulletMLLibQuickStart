@@ -1125,10 +1125,6 @@
       <Project>{85D723F7-83EF-4C75-82BA-9385D0AC8448}</Project>
       <Name>HadoukInput.Windows</Name>
     </ProjectReference>
-    <ProjectReference Include="..\externals\Equationator\Windows\Equationator.csproj">
-      <Project>{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}</Project>
-      <Name>Equationator</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="packages\MonoGame.Binaries.3.2.0\build\net40\MonoGame.Binaries.targets" Condition="Exists('packages\MonoGame.Binaries.3.2.0\build\net40\MonoGame.Binaries.targets')" />

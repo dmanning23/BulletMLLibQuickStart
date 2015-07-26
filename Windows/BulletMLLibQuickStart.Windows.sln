@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTimer.Windows", "..\ext
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HadoukInput.Windows", "..\externals\HadoukInput\Windows\HadoukInput.Windows.csproj", "{85D723F7-83EF-4C75-82BA-9385D0AC8448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equationator", "..\externals\Equationator\Windows\Equationator.csproj", "{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixExtensions.Windows", "..\externals\MatrixExtensions\Windows\MatrixExtensions.Windows.csproj", "{E2C50D0B-A1C1-4F67-92CB-BE0E587A3CE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filename.Windows", "..\externals\Filename\Windows\Filename.Windows.csproj", "{2A84DFE8-75E0-4774-BAAF-00629ED44405}"
@@ -23,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExtensions.Windows", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletMLTests", "..\externals\BulletMLLib\BulletMLTests\BulletMLTests.csproj", "{98D87BE4-D84D-4E77-A1A7-919021F48232}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationatorUnitTests", "..\externals\Equationator\UnitTests\EquationatorUnitTests.csproj", "{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equationator.Windows", "..\externals\Equationator\Equationator.Windows\Equationator.Windows.csproj", "{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,18 +91,6 @@ Global
 		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Release|Mixed Platforms.Build.0 = Release|x86
 		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Release|x86.ActiveCfg = Release|x86
 		{85D723F7-83EF-4C75-82BA-9385D0AC8448}.Release|x86.Build.0 = Release|x86
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Debug|x86.Build.0 = Debug|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Release|x86.ActiveCfg = Release|Any CPU
-		{779F99A3-B976-45B2-AE0D-AD3EAF92A0D4}.Release|x86.Build.0 = Release|Any CPU
 		{E2C50D0B-A1C1-4F67-92CB-BE0E587A3CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E2C50D0B-A1C1-4F67-92CB-BE0E587A3CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2C50D0B-A1C1-4F67-92CB-BE0E587A3CE6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
@@ -163,19 +149,24 @@ Global
 		{98D87BE4-D84D-4E77-A1A7-919021F48232}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{98D87BE4-D84D-4E77-A1A7-919021F48232}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{98D87BE4-D84D-4E77-A1A7-919021F48232}.Release|x86.ActiveCfg = Release|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Release|Any CPU.Build.0 = Release|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{348D0CAF-AF8F-4DD7-9F40-E90D2B2AB206}.Release|x86.ActiveCfg = Release|Any CPU
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Debug|x86.ActiveCfg = Debug|x86
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Debug|x86.Build.0 = Debug|x86
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Release|x86.ActiveCfg = Release|x86
+		{52E9B2EF-CFA4-4905-A94C-FE0372164E0B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = BulletMLLibQuickStart.Windows.csproj
