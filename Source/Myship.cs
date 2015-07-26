@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
 namespace BulletMLSample
@@ -16,8 +15,8 @@ namespace BulletMLSample
 
 		public void Init()
 		{
-			pos.X = Game1.graphics.PreferredBackBufferWidth / 2;
-			pos.Y = Game1.graphics.PreferredBackBufferHeight / 2; ;
+			pos.X = Game1.graphics.PreferredBackBufferWidth / 2f;
+			pos.Y = Game1.graphics.PreferredBackBufferHeight / 2f;
 		}
 
 		public void Update()

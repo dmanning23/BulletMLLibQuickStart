@@ -1,8 +1,7 @@
-﻿using System;
-using System.Diagnostics;
-using System.Collections.Generic;
-using BulletMLLib;
+﻿using BulletMLLib;
 using Microsoft.Xna.Framework;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace BulletMLSample
 {
@@ -179,9 +178,9 @@ namespace BulletMLSample
 			topLevelMovers.Clear();
 		}
 
-		public float Tier()
+		public double Tier()
 		{
-			return 0.0f;
+			return 0.0;
 		}
 	}
 }

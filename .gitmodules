@@ -34,3 +34,6 @@
 [submodule "externals/RandomExtensions"]
 	path = externals/RandomExtensions
 	url = git@github.com:dmanning23/RandomExtensions.git
+[submodule "externals/XmlBuddy"]
+	path = externals/XmlBuddy
+	url = git@github.com:dmanning23/XmlBuddy.git

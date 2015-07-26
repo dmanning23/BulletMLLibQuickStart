@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using BulletMLLib;
 using Microsoft.Xna.Framework;
-using BulletMLLib;
 
 namespace BulletMLSample
 {

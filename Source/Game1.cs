@@ -1,13 +1,12 @@
-using System;
-using System.Collections.Generic;
 using BulletMLLib;
+using FontBuddyLib;
+using GameTimer;
+using HadoukInput;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 using System.IO;
-using HadoukInput;
-using GameTimer;
-using FontBuddyLib;
 using System.Text;
 
 namespace BulletMLSample
@@ -15,7 +14,7 @@ namespace BulletMLSample
 	/// <summary>
 	/// This is the main type for your game
 	/// </summary>
-	class Game1 : Microsoft.Xna.Framework.Game
+	class Game1 : Game
 	{
 		#region Members
 
@@ -223,32 +222,32 @@ namespace BulletMLSample
 			Vector2 position = Vector2.Zero;
 
 			//say what pattern we are shooting
-			_text.Write(_patternNames[_CurrentPattern], position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			_text.Write(_patternNames[_CurrentPattern], position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
 			position.Y += _text.Font.MeasureString("test").Y;
 
 			//how many bullets on the screen
-			_text.Write(_moverManager.movers.Count.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			_text.Write(_moverManager.movers.Count.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
 			position.Y += _text.Font.MeasureString("test").Y;
 
 			//the current rank
 			StringBuilder rankText = new StringBuilder();
 			rankText.Append("Rank: ");
 			rankText.Append(((int)(_Rank * 10)).ToString());
-			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
 			position.Y += _text.Font.MeasureString("test").Y;
 
 			//the current time speed
 			rankText = new StringBuilder();
 			rankText.Append("Time Speed: ");
 			rankText.Append(_moverManager.TimeSpeed.ToString());
-			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
 			position.Y += _text.Font.MeasureString("test").Y;
 
 			//the current scale
 			rankText = new StringBuilder();
 			rankText.Append("Scale: ");
 			rankText.Append(_moverManager.Scale.ToString());
-			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch);
+			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
 			position.Y += _text.Font.MeasureString("test").Y;
 
 			foreach (Mover mover in _moverManager.movers)
@@ -268,7 +267,7 @@ namespace BulletMLSample
 
 			//add a new bullet in the center of the screen
 			mover = (Mover)_moverManager.CreateTopBullet();
-			mover.pos = new Vector2(graphics.PreferredBackBufferWidth / 2, graphics.PreferredBackBufferHeight / 2);
+			mover.pos = new Vector2(graphics.PreferredBackBufferWidth / 2f, graphics.PreferredBackBufferHeight / 2f);
 			mover.InitTopNode(_myPatterns[_CurrentPattern].RootNode);
 		}
 
