@@ -1,39 +1,3 @@
-[submodule "externals/FontBuddy"]
-	path = externals/FontBuddy
-	url = git@github.com:dmanning23/FontBuddy.git
-[submodule "externals/BulletMLLib"]
-	path = externals/BulletMLLib
-	url = git@github.com:dmanning23/BulletMLLib.git
-[submodule "externals/HadoukInput"]
-	path = externals/HadoukInput
-	url = git@github.com:dmanning23/HadoukInput.git
-[submodule "externals/GameTimer"]
-	path = externals/GameTimer
-	url = git@github.com:dmanning23/GameTimer.git
-[submodule "externals/XNA"]
-	path = externals/XNA
-	url = git@github.com:dmanning23/XnaCompiledResources.git
-[submodule "externals/Equationator"]
-	path = externals/Equationator
-	url = git@github.com:dmanning23/Equationator.git
-[submodule "externals/ouya-csharp"]
-	path = externals/ouya-csharp
-	url = git@github.com:dmanning23/ouya-csharp.git
-[submodule "externals/MatrixExtensions"]
-	path = externals/MatrixExtensions
-	url = git@github.com:dmanning23/MatrixExtensions.git
-[submodule "externals/Filename"]
-	path = externals/Filename
-	url = git@github.com:dmanning23/Filename.git
 [submodule "externals/BulletMLExamples"]
 	path = externals/BulletMLExamples
 	url = git@github.com:dmanning23/BulletMLExamples.git
-[submodule "externals/Vector2Extensions"]
-	path = externals/Vector2Extensions
-	url = git@github.com:dmanning23/Vector2Extensions.git
-[submodule "externals/RandomExtensions"]
-	path = externals/RandomExtensions
-	url = git@github.com:dmanning23/RandomExtensions.git
-[submodule "externals/XmlBuddy"]
-	path = externals/XmlBuddy
-	url = git@github.com:dmanning23/XmlBuddy.git

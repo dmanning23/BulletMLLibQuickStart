@@ -36,8 +36,12 @@ x64/
 *.vspscc
 *.vssscc
 .builds
-*.cachefile
 *.userprefs
+*.cachefile
+*.apk
+*.nupkg
+.DS_Store
+._.DS_Store
 UpgradeLog.htm
 
 # Visual C++ cache files
