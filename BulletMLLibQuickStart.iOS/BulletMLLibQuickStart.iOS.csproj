@@ -103,7 +103,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BulletMLLib.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\BulletMLLib.1.0.3\lib\Xamarin.iOS10\BulletMLLib.iOS.dll</HintPath>
+      <HintPath>..\packages\BulletMLLib.1.0.4\lib\Xamarin.iOS10\BulletMLLib.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Equationator.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -156,9 +156,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bulletml.dtd">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <None Include="Content\bulletml.dtd" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <None Include="packages.config" />
