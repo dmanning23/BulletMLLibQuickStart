@@ -63,8 +63,8 @@ namespace BulletMLLibQuickStart
 
 			_clock = new GameClock();
 			_inputState = new InputState();
-			_inputWrapper = new InputWrapper(new ControllerWrapper(PlayerIndex.One, true), _clock.GetCurrentTime);
-			_inputWrapper.Controller.UseKeyboard = true;
+			_inputWrapper = new InputWrapper(new ControllerWrapper(0), _clock.GetCurrentTime);
+			Mappings.UseKeyboard[0] = true;
 			_moverManager = new MoverManager(myship.Position);
 		}
 
@@ -225,32 +225,32 @@ namespace BulletMLLibQuickStart
 
 			//say what pattern we are shooting
 			_text.Write(_patternNames[_CurrentPattern], position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
-			position.Y += _text.Font.MeasureString("test").Y;
+			position.Y += _text.MeasureString("test").Y;
 
 			//how many bullets on the screen
 			_text.Write(_moverManager.movers.Count.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
-			position.Y += _text.Font.MeasureString("test").Y;
+			position.Y += _text.MeasureString("test").Y;
 
 			//the current rank
 			StringBuilder rankText = new StringBuilder();
 			rankText.Append("Rank: ");
 			rankText.Append(((int)(_Rank * 10)).ToString());
 			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
-			position.Y += _text.Font.MeasureString("test").Y;
+			position.Y += _text.MeasureString("test").Y;
 
 			//the current time speed
 			rankText = new StringBuilder();
 			rankText.Append("Time Speed: ");
 			rankText.Append(_moverManager.TimeSpeed.ToString());
 			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
-			position.Y += _text.Font.MeasureString("test").Y;
+			position.Y += _text.MeasureString("test").Y;
 
 			//the current scale
 			rankText = new StringBuilder();
 			rankText.Append("Scale: ");
 			rankText.Append(_moverManager.Scale.ToString());
 			_text.Write(rankText.ToString(), position, Justify.Left, 1.0f, Color.White, spriteBatch, _clock);
-			position.Y += _text.Font.MeasureString("test").Y;
+			position.Y += _text.MeasureString("test").Y;
 
 			foreach (Mover mover in _moverManager.movers)
 				spriteBatch.Draw(texture, mover.pos, Color.Black);
