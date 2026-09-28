@@ -25,5 +25,9 @@
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*" />
+    <PackageReference Include="BulletMLLib" Version="5.*" />
+    <PackageReference Include="FontBuddy" Version="5.*" />
+    <PackageReference Include="GameTimer" Version="5.*" />
+    <PackageReference Include="HadoukInput" Version="5.*" />
   </ItemGroup>
 </Project>
