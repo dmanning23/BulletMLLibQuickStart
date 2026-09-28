@@ -87,8 +87,11 @@ namespace BulletMLQuickStart
 
             texture = Content.Load<Texture2D>("bullet");
 
-            //Get all the xml files in the Content\\Samples directory
-            foreach (var source in Directory.GetFiles("../../../../../externals/BulletMLExamples", "*.xml"))
+            //Get all the xml files in the Content\\Samples directory and sort them alphabetically
+            var sources = Directory.GetFiles("../../../../../externals/BulletMLExamples", "*.xml");
+            System.Array.Sort(sources, System.StringComparer.OrdinalIgnoreCase);
+
+            foreach (var source in sources)
             {
                 //store the name
                 _patternNames.Add(source);
